@@ -1,0 +1,560 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex div {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+section {
+  display: flex;
+  gap: 12px;
+}
+
+section div {
+  display: flex;
+}
+.header-menu {
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f7cc;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  width: 100vw;
+  height: 44px;
+  gap: 24px;
+}
+.section-1-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.header-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 52px;
+  gap: 4px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #1d1d1f;
+}
+.bckg-1 {
+  background-image: url("image-and-icons/Background1.png");
+  width: 100vw;
+  height: 692px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 52px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+}
+.bckg-2 {
+  background-image: url("image-and-icons/Background2.png");
+  width: 100vw;
+  height: 692px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 52px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+}
+.bckg-3 {
+  background-image: url("image-and-icons/Background3.png");
+  width: 100vw;
+  height: 692px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 52px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 55px;
+  background-position: center;
+}
+.bckg-text-box-1 {
+  padding-top: 55px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 405px;
+  height: 172px;
+  gap: 20px;
+}
+.bckg-text-1 {
+  gap: 16px;
+  color: #f5f5f7;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.bckg-text-2 {
+  gap: 12px;
+  color: #000000;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* select  */
+.bckg-text-1 p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+.bckg-text-2 p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+.bckg-3 .bckg-text-box-1 {
+  height: 164px;
+  justify-content: flex-end;
+}
+.button-1 {
+  width: 123px;
+  height: 44px;
+  gap: 10px;
+  border-radius: 999px;
+  border: none;
+  background-color: #0071e3;
+  color: #ffffff;
+}
+
+.buy-button {
+  width: 68px;
+  height: 44px;
+  border-radius: 999px;
+  border: solid #2997ff;
+  color: #2997ff;
+  background-color: transparent;
+}
+/* select  */
+.bckg-2 .bckg-text-box-1 .buy-button {
+  border: solid #ffffff;
+  color: #ffffff;
+}
+.bckg-2 .bckg-text-box-1 .button-1 {
+  background-color: #ffffff;
+  color: #000000;
+}
+/* 2dahi heseg */
+.figure-1 {
+  background-image: url(image-and-icons/figure-1.png);
+  width: 49vw;
+  height: 580px;
+  background-position: center;
+  margin-top: 12px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.button-2 {
+  width: 115px;
+  height: 40px;
+  gap: 10px;
+  border-radius: 999px;
+  border: none;
+  background-color: #0071e3;
+  color: #ffffff;
+}
+.buy-button-2 {
+  width: 68px;
+  height: 40px;
+  border-radius: 999px;
+  border: solid #2997ff;
+  color: #2997ff;
+  background-color: transparent;
+}
+.figure-1-text {
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  padding-top: 58px;
+  gap: 16px;
+}
+.rainbow-text {
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 53px;
+}
+.figure-2 {
+  background-image: url(image-and-icons/figure-2.png);
+  width: 49vw;
+  height: 580px;
+  background-position: center;
+  margin-top: 12px;
+  align-items: center;
+  flex-direction: column;
+}
+.figure-2-text {
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 36px;
+  line-height: 44px;
+  color: #f5f5f7;
+  padding-top: 401px;
+  gap: 12px;
+}
+.figure-2-text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+.figure-3 {
+  background-image: url(image-and-icons/figure-3.png);
+  width: 49vw;
+  height: 580px;
+  background-position: center;
+  align-items: center;
+  flex-direction: column;
+}
+.figure-3-text {
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  gap: 16px;
+  padding-top: 58px;
+}
+.figure-3-text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1d1d1f;
+  width: 322px;
+  text-align: center;
+}
+.gap-16 {
+  gap: 16px;
+}
+.figure-4 {
+  background-image: url(image-and-icons/figure-4.png);
+  width: 49vw;
+  height: 580px;
+  background-position: center;
+  align-items: center;
+  flex-direction: column;
+}
+.figure-4-text {
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter";
+  gap: 10px;
+  padding-top: 48px;
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 36px;
+  line-height: 44px;
+  color: #1d1d1f;
+}
+.figure-4-text p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+.figure-5 {
+  background-image: url(image-and-icons/figure-5.png);
+  width: 49vw;
+  height: 580px;
+  background-position: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+.figure-5-text {
+  width: 322px;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter";
+  gap: 16px;
+  padding-top: 58px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #1d1d1f;
+}
+
+.button-3 {
+  width: 167px;
+  height: 40px;
+  gap: 10px;
+  border-radius: 999px;
+  border: none;
+  background-color: #0071e3;
+  color: #ffffff;
+}
+.figure-6 {
+  background-image: url(image-and-icons/figure-6.png);
+  width: 49vw;
+  height: 580px;
+  background-position: center;
+  align-items: center;
+  flex-direction: column;
+}
+.figure-6 .buy-button-2 {
+  width: 112px;
+  height: 40px;
+}
+.scrolls {
+  margin-top: 12px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  gap: 24px;
+}
+.scroll-item {
+  min-width: 1250px;
+  height: 668px;
+  background-size: cover;
+}
+#item-1 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/carousel/bad-monkey.jpg");
+}
+#item-2 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/carousel/baseball.jpg");
+}
+#item-3 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/carousel/instigators.jpg");
+}
+#item-4 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/carousel/k-pop-idols.jpg");
+}
+#item-5 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/carousel/lady-in-the-lake.jpg");
+}
+#item-6 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/carousel/morning-show.jpg");
+}
+#item-7 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/carousel/napoleon.jpg");
+}
+#item-8 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/carousel/pachinko.jpg");
+}
+#item-9 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/carousel/pressumed-innocent.jpg");
+}
+#item-10 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/carousel/season-pass.jpg");
+}
+.dot {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 8px;
+  gap: 7px;
+}
+.dot a {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: grey;
+  color: grey;
+}
+.footer-gallery {
+  gap: 16px;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  min-width: calc(var(--width) * var(--quantity));
+}
+.footerDiv {
+  overflow-x: hidden;
+}
+.gallery-image {
+  min-width: 417px;
+  height: 236px;
+  background-size: cover;
+  animation-name: river;
+  animation-duration: 44s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  overflow: hidden;
+  animation-delay: 0.5s;
+  position: relative;
+}
+.song-1 {
+  width: 417px;
+  height: 236px;
+  background-color: #1b2632;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  gap: 15px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.song-2 {
+  width: 417px;
+  height: 236px;
+  background-color: rgba(194, 183, 183, 0.2);
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  gap: 15px;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+.footer-gallery .song-2 {
+  background-color: rgb(64, 13, 14);
+}
+@keyframes river {
+  from {
+  }
+  to {
+    transform: translate(calc(-417px * 10));
+  }
+}
+#image-1 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/1.jpg");
+  width: 196px;
+  height: 196px;
+  border-radius: 8px;
+}
+#image-2 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/2.jpg");
+  width: 196px;
+  height: 196px;
+  border-radius: 8px;
+}
+#image-3 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/3.jpg");
+}
+#image-4 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/4.jpg");
+}
+#image-5 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/5.jpg");
+}
+#image-6 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/6.jpg");
+}
+#image-7 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/7.jpg");
+}
+#image-8 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/8.jpg");
+  width: 196px;
+  height: 196px;
+  border-radius: 8px;
+}
+#image-9 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/9.jpg");
+}
+#image-10 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/10.jpg");
+  width: 196px;
+  height: 196px;
+  border-radius: 8px;
+}
+.footer-gallery .song-1 {
+  background-color: rgb(38, 38, 38);
+  color: black;
+}
+.footer-gallery:hover .gallery-image {
+  filter: grayscale(1);
+  animation-play-state: paused;
+}
+.footer-gallery .gallery-image:hover {
+  filter: grayscale(0);
+}
+.footer-button-song-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: -40px;
+  width: 397px;
+  position: absolute;
+}
+.footer-button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: -40px;
+  width: 417px;
+  height: 236px;
+  position: absolute;
+}
+.footer-button {
+  position: absolute;
+  border: none;
+  margin-top: 20px;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background-color: white;
+  visibility: hidden;
+}
+.footer-gallery .gallery-image:hover .footer-button {
+  visibility: visible;
+}
