@@ -4,14 +4,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  overflow-x: hidden;
+}
+
 .flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.flex div {
-  display: flex;
-}
+/* .flex div {
+  display: flex; */
+
 .wrap {
   flex-wrap: wrap;
 }
@@ -30,7 +35,7 @@ section div {
 .header-menu {
   align-items: center;
   justify-content: center;
-  background-color: #f5f5f7cc;
+  background-color: #f5f5f7;
   font-family: "Inter";
   font-weight: 400;
   font-size: 12px;
@@ -39,6 +44,12 @@ section div {
   width: 100vw;
   height: 44px;
   gap: 24px;
+  position: fixed;
+}
+.menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .section-1-container {
   flex-direction: column;
@@ -54,11 +65,13 @@ section div {
   height: 52px;
   gap: 4px;
   font-family: Inter;
-  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0px;
   color: #1d1d1f;
+  font-weight: 500;
+  padding: 16px 31px;
+  text-align: center;
 }
 .bckg-1 {
   background-image: url("image-and-icons/Background1.png");
@@ -74,6 +87,7 @@ section div {
   align-items: center;
   flex-direction: column;
   background-position: center;
+  background-size: cover;
 }
 .bckg-2 {
   background-image: url("image-and-icons/Background2.png");
@@ -107,6 +121,15 @@ section div {
   background-position: center;
 }
 .bckg-text-box-1 {
+  padding-top: 55px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 405px;
+  height: 172px;
+  gap: 20px;
+}
+.bckg-text-box-double {
   padding-top: 55px;
   justify-content: space-between;
   align-items: center;
@@ -212,6 +235,16 @@ section div {
   padding-top: 58px;
   gap: 16px;
 }
+.figure-text-double {
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  padding-top: 58px;
+  gap: 16px;
+}
 .rainbow-text {
   text-align: center;
   font-family: Inter;
@@ -249,14 +282,18 @@ section div {
   font-size: 36px;
   line-height: 44px;
   color: #f5f5f7;
-  padding-top: 401px;
   gap: 12px;
+  padding-bottom: 58px;
+  height: 580px;
+  justify-content: flex-end;
 }
 .figure-2-text p {
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
+  text-align: center;
+  width: 276px;
 }
 .figure-3 {
   background-image: url(image-and-icons/figure-3.png);
@@ -557,4 +594,14 @@ section div {
 }
 .footer-gallery .gallery-image:hover .footer-button {
   visibility: visible;
+}
+.none {
+  visibility: hidden;
+  align-items: center;
+}
+.bckg-text-none {
+  visibility: hidden;
+}
+.figure-none {
+  display: none;
 }
